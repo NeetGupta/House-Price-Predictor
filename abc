@@ -1,0 +1,3 @@
+curl -X POST http://your-ec2-ip/predict \
+  -H "Content-Type: application/json" \
+  -d '{"area": 2000}'
