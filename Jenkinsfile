@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/NeetGupta/House-Price-Predictor.git'
+                git 'https://github.com/NeetGupta/House-Price-Predictor.git', branch: 'main', credentialsId: 'Github-ID'
             }
         }
 
