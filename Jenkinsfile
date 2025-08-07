@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/yourusername/flask-ml-app.git'
+                git 'https://github.com/NeetGupta/House-Price-Predictor.git'
             }
         }
 
