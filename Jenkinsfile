@@ -1,6 +1,9 @@
 pipeline {
-    agent any
-
+    agent{
+        docker {
+            image 'python:3.10'
+        }
+    }
     environment {
         IMAGE_NAME = 'yourdockerhubusername/flask-ml-api'
     }
